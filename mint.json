@@ -121,5 +121,13 @@
     "x": "https://x.com/shikderNYC",
     "github": "https://github.com/palico-ai/palico-ai",
     "linkedin": "https://www.linkedin.com/company/102658123"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-Q39NFM4PTV"
+    },
+    "gtm": {
+      "tagId": "GTM-5C2WKP72"
+    }
   }
 }
