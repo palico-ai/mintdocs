@@ -75,12 +75,12 @@
     {
       "group": "Guides",
       "pages": [
-        "guides/building_app",
+        "guides/build",
         "guides/agents",
         "guides/feature_flag",
         "guides/streaming",
         "guides/conversation_state",
-        "guides/monitoring",
+        "guides/telemetry",
         "guides/experiments",
         "guides/ai_gateway",
         "guides/prompt_management",
