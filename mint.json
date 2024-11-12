@@ -1,91 +1,125 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Palico AI",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#a855f7",
+    "light": "#c084fc",
+    "dark": "#a855f7",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#c084fc",
+      "to": "#a855f7"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:asif@palico.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "GitHub",
+    "url": "https://github.com/palico-ai/palico-ai"
+  },
+  "api": {
+    "baseUrl": "http://localhost:8000",
+    "playground": {
+      "mode": "hide"
+    },
+    "auth": {
+      "method": "bearer"
+    }
+  },
+  "primaryTab": {
+    "name": "Palico App"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Client SDKs",
+      "url": "client-sdk"
+    },
+    {
+      "name": "Types",
+      "url": "https://typedoc.palico.ai/"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Palico.AI",
+      "icon": "globe",
+      "url": "https://www.palico.ai/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.palico.ai/"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg/TyQPVSXa"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
         "quickstart",
-        "development"
+        "components"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Guides",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "guides/build",
+        "guides/agents",
+        "guides/feature_flag",
+        "guides/streaming",
+        "guides/conversation_state",
+        "guides/telemetry",
+        "guides/experiments",
+        "guides/ai_gateway",
+        "guides/prompt_management",
+        "guides/deployment"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Integrations",
       "pages": [
-        "api-reference/introduction"
+        "integrations/langchain",
+        "integrations/llamaindex",
+        "integrations/llm_providers",
+        "integrations/vector_db"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "@palico-ai / client-js",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "client-sdk/introduction"
+      ]
+    },
+    {
+      "group": "@palico-ai / react",
+      "pages": [
+        "client-sdk/react-sdk/introduction"
+      ]
+    },
+    {
+      "group": "REST API",
+      "pages": [
+        "client-sdk/api/introduction",
+        "client-sdk/api/agent/new_conversation",
+        "client-sdk/api/agent/conversation_reply"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/shikderNYC",
+    "github": "https://github.com/palico-ai/palico-ai",
+    "linkedin": "https://www.linkedin.com/company/102658123"
   }
 }
